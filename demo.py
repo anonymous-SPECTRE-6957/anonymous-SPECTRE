@@ -177,7 +177,9 @@ def main(args):
             codedict, initial_deca_exp, initial_deca_jaw = spectre.encode(images_array)
             codedict['exp'] = codedict['exp'] + initial_deca_exp
             codedict['pose'][..., 3:] = codedict['pose'][..., 3:] + initial_deca_jaw
-
+            codedict['pose'][..., 3] = F.relu(codedict['pose'][...,3])
+            codedict['pose'][..., 4] = 0
+            
             for key in codedict.keys():
                 """ filter out invalid indices - see explanation at the top of the function """
 
