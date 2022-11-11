@@ -1,8 +1,10 @@
 <div align="center">
 
-  # SPECTRE: Visual Speech-Aware Perceptual 3D Facial Expression Reconstruction from Videos
+  # SPECTRE: Visual Speech-Informed Perceptual 3D Facial Expression Reconstruction from Videos
 
 </div>
+
+## This repository is <b>ANONYMIZED</b>.
 
 <p align="center"> 
 <img src="samples/visualizations/M003_level_1_angry_014_grid.gif">
