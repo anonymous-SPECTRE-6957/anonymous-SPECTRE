@@ -23,7 +23,7 @@ This is the official Pytorch implementation of the paper.
 Clone the repo and its submodules:
 ```bash
 git clone --recurse-submodules -j4 https://github.com/anonymous-SPECTRE-6957/anonymous-SPECTRE
-cd spectre
+cd anonymous-SPECTRE
 ```  
 
 You need to have installed a working version of Pytorch with Python 3.6 or higher and Pytorch 3D. You can use the following commands to create a working installation:
